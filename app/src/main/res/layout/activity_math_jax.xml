@@ -6,12 +6,9 @@
     android:layout_height="match_parent"
     tools:context="com.app2m.mathml.demo.MathJaxActivity"
     android:orientation="vertical">
-
-    <Button
+    <WebView
+        android:id="@+id/webView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAllCaps="false"
-        android:text="MathJax"
-        android:onClick="onClickMathJax"/>
-
+        android:layout_height="match_parent">
+    </WebView>
 </LinearLayout>
