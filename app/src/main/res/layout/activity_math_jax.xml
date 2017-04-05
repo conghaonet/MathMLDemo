@@ -5,10 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.app2m.mathml.demo.MathJaxActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#00ff00">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="用MathJax实现的公式，效果如下："/>
     <WebView
         android:id="@+id/webView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#660000ff">
     </WebView>
 </LinearLayout>
