@@ -11,7 +11,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
-        android:text="MathJax"
-        android:onClick="onClickMathJax"/>
+        android:text="复杂公式"
+        android:onClick="onClickDemo"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="简单公式"
+        android:onClick="onClickDemo1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="屏蔽公式右键菜单/隐藏JS加载状态"
+        android:onClick="onClickDemo2"/>
 
 </LinearLayout>

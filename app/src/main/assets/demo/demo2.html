@@ -4,6 +4,16 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>mathjax</title>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            showProcessingMessages: false,
+            messageStyle: "none",
+            "HTML-CSS": {
+                showMathMenu: false
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    </script>
 <!--
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 -->
@@ -13,12 +23,13 @@
 </script>
 -->
 <!--
-    <script type="text/javascript" async src="file:///android_asset/MathJax/MathJax.js?config=TeX-MML-AM_CHTML"></script>
--->
     <script type="text/javascript" async="async" src="file:///android_asset/MathJax/MathJax.js?config=default"></script>
+-->
+    <script type="text/javascript" async src="file:///android_asset/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </head>
 <body>
 <p>\[\frac{{ - b \pm \sqrt {{b^2} - 4ac} }}{{2a}}\]</p>
+<p>\[\frac{{\sqrt {{c^2} - {d^2}} }}{{3a}}\]</p>
 <p>\[\begin{Bmatrix} {5} &amp; {1} \\ {2} &amp; {3} \end{Bmatrix}\]</p>
 </body>
 </html>
