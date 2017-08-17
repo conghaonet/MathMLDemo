@@ -14,8 +14,9 @@
         android:text="用MathJax实现的公式，效果如下："/>
     <WebView
         android:id="@+id/webView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:background="#660000ff">
     </WebView>
 </LinearLayout>

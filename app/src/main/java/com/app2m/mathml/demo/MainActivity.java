@@ -14,6 +14,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickMathJax(View view) {
-        startActivity(new Intent(this, MathJaxActivity.class));
+        startActivity(MathJaxActivity.getIntent(this, "file:///android_asset/demo/demo1.html"));
     }
 }
