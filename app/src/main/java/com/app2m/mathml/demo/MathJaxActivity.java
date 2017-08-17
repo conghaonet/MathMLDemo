@@ -19,7 +19,7 @@ public class MathJaxActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_math_jax);
+        setContentView(R.layout.latex_activity_math_jax);
         String latexUrl = getIntent().getStringExtra(INTENT_KEY_LATEX_URL);
         mWebView = (WebView) findViewById(R.id.webView);
         mWebView.loadUrl(latexUrl);
